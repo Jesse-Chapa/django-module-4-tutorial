@@ -10,7 +10,7 @@
                         </time>
 
                         <h2>
-                            <a href="">My first post</a>
+                            <a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a>
                         </h2>
 
                         <p>
